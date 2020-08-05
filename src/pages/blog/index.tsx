@@ -41,7 +41,6 @@ export async function getStaticProps() {
 export default ({ posts = [] }) => {
   return (
     <article>
-      <h1>Thoughts</h1>
       <Header title="Thoughts" />
       <div className="post-list">
         {posts.map(post => {

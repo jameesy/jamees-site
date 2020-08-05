@@ -4,7 +4,7 @@ import ExtLink from './ext-link'
 import { useRouter } from 'next/router'
 
 const navItems: { label: string; page?: string; link?: string }[] = [
-  { label: 'Blog', page: '/blog' },
+  { label: 'Journal', page: '/blog' },
   { label: 'About', page: '/' }
 ]
 
@@ -15,10 +15,10 @@ export default ({ title = '', children = null }) => {
 
   return <>
     <Head>
-      <title>{title || 'Shu'}</title>
+      <title>{title || 'Jamees'}</title>
       <meta
         name="description"
-        content="Shu’s thoughts"
+        content="James’ thoughts"
       />
       <meta name="og:title" content="Shu" />
     </Head>
