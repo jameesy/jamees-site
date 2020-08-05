@@ -1,1 +1,0 @@
-{"ast":null,"code":"import fs from 'fs';\nimport { promisify } from 'util';\nexport const readFile = promisify(fs.readFile);\nexport const writeFile = promisify(fs.writeFile);","map":null,"metadata":{},"sourceType":"module"}
