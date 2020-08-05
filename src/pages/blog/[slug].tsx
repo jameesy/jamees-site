@@ -24,7 +24,7 @@ export async function getStaticProps({ params: { slug } }) {
   }
   const postData = await getPageData(post.id)
   post.content = postData.blocks
-  post.Authors = ['Shu Ding']
+  post.Authors = ['James Bedford']
 
   // const { users } = await getNotionUsers(post.Authors || [])
   // post.Authors = Object.keys(users).map(id => users[id].full_name)

@@ -20,7 +20,7 @@ export default ({ title = '', children = null }) => {
         name="description"
         content="James’ thoughts"
       />
-      <meta name="og:title" content="Shu" />
+      <meta name="og:title" content="James" />
     </Head>
     <header>
       <div>{children}</div>
