@@ -1,0 +1,231 @@
+@import url('https://rsms.me/inter/inter.css');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Inter', 'Helvetica Neue',-apple-system,BlinkMacSystemFont,Helvetica,'Segoe UI',Roboto,Oxygen,Ubuntu,Cantarell,'Fira Sans','Droid Sans','Microsoft Yahei',sans-serif;
+}
+
+@supports (font-variation-settings: normal) {
+  html {
+    font-family: 'Inter var', 'Helvetica Neue',-apple-system,BlinkMacSystemFont,Helvetica,'Segoe UI',Roboto,Oxygen,Ubuntu,Cantarell,'Fira Sans','Droid Sans','Microsoft Yahei',sans-serif;
+  }
+}
+
+body {
+  margin: 0;
+  color: #111;
+  font-size: 14px;
+  line-height: 1.65;
+  word-break: break-word;
+  word-wrap: break-word;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+  font-feature-settings: 'calt', 'case', 'rlig';
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  background-color: white;
+  font-weight: 400;
+}
+
+*::selection {
+  color: white;
+  background: #103cff;
+}
+
+a:focus, article a:focus {
+  outline: none;
+  opacity: .6;
+}
+
+article {
+  margin: auto;
+  padding: 4rem 1rem 0;
+  max-width: 42rem;
+  width: 100vw;
+  white-space: pre-line;
+}
+
+article .content {
+  margin: 2rem 0 5rem;
+}
+
+article .content > a {
+  display: block;
+}
+
+article h1 {
+  font-size: 1.5em;
+  font-weight: 600;
+  letter-spacing: -0.02rem;
+}
+
+article h2 {
+  margin-top: 2.5rem;
+  font-size: 1.3em;
+  font-weight: 600;
+}
+
+article h3 {
+  font-size: 1.12em;
+  margin-top: 2.5rem;
+  font-weight: 500;
+}
+
+article p {
+  margin-top: 1.5rem;
+  margin-bottom: 0;
+}
+
+article blockquote {
+  font-style: italic;
+  margin: 1.5rem;
+}
+
+blockquote .zh-han {
+  font-style: normal;
+  font-family: Baskerville, 'Times New Roman', Times, 'Zhuyin Kaiti', 'Han Kaiti', Kai, KaiTi, 'KaiTi SC', STKaiti, cursive;
+  font-size: 1.04em;
+}
+
+article hr {
+  border: 0px;
+  height: 1px;
+  background: black;
+  opacity: 0.05;
+  margin: 4rem 0px;
+}
+
+article li {
+  margin: .25rem 0;
+}
+
+article li::marker {
+  font-feature-settings: "tnum";
+}
+
+article b {
+  font-weight: 600;
+}
+
+article a {
+  color: #006fd0;
+  text-decoration: none;
+}
+
+article p a:hover, article li a:hover, article blockquote a:hover {
+  text-decoration: underline;
+  text-underline-position: auto;
+  cursor: pointer;
+}
+
+article .zh-han {
+  word-break: break-all;
+  text-align: justify;
+  hanging-punctuation: allow-end;
+}
+
+article .meta {
+  color: #666;
+}
+
+.post-list {
+  margin: 2rem 0 5rem;
+}
+
+.post-item {
+  margin-top: 1rem;
+  margin-bottom: 0;
+  clear: both;
+}
+
+.post-item a {
+  display: inline;
+  margin-right: 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: black;
+  letter-spacing: -0.02em;
+  text-decoration: none;
+}
+
+.post-item time {
+  color: #666;
+  font-size: .8rem;
+  line-height: 2em;
+}
+
+.media-container {
+  position: relative;
+  width: 100%;
+  line-height: 0;
+  margin: 1.5rem 0;
+}
+
+.media-container img, .media-container video {
+  position: absolute;
+  width: 100%;
+}
+
+header {
+  display: flex;
+  margin: 3rem 0px 1rem;
+  justify-content: space-between;
+}
+
+header nav {
+  display: flex;
+}
+
+header nav div {
+  margin-left: 1rem;
+}
+
+header nav div a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-position: auto;
+  cursor: pointer;
+}
+
+header nav div a.active {
+  text-decoration: none;
+  cursor: default;
+}
+
+footer {
+  max-width: 42rem;
+  padding: 0 1rem;
+  margin: 0 auto 2rem;
+  font-size: .8rem;
+  color: #aaa;
+  line-height: 1.2em;
+}
+
+footer abbr {
+  display: inline-block;
+  cursor: help;
+  text-decoration: none;
+  border-bottom: 1px dotted;
+}
+
+/* iOS */
+@supports (-webkit-overflow-scrolling: touch) {
+  /* missing font */
+  blockquote .zh-han {
+    color: #666;
+    font-size: 1em;
+    font-weight: 300;
+    font-family: unset;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .post-item time {
+    float: right;
+  }
+}
