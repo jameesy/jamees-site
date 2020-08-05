@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <feed xmlns="http://www.w3.org/2005/Atom">
+    <title>My Blog</title>
+    <subtitle>Blog</subtitle>
+    <link href="/atom" rel="self" type="application/rss+xml"/>
+    <link href="/" />
+    <updated>2020-08-05T07:55:57.359Z</updated>
+    <id>My Notion Blog</id>
+    <entry>
+      <id>/blog/linkedin-is-a-full-time-job</id>
+      <title>LinkedIn is a full time job</title>
+      <link href="/blog/linkedin-is-a-full-time-job"/>
+      <updated>2020-06-21T23:00:00.377Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/blog/linkedin-is-a-full-time-job">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>James Bedford</name></author>
+    </entry>
+    <entry>
+      <id>/blog/my-job-is-at-risk</id>
+      <title>My job is at risk</title>
+      <link href="/blog/my-job-is-at-risk"/>
+      <updated>2020-06-07T23:00:00.378Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/blog/my-job-is-at-risk">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>James Bedford</name></author>
+    </entry>
+    <entry>
+      <id>/blog/what-is-this</id>
+      <title>What is this site?</title>
+      <link href="/blog/what-is-this"/>
+      <updated>2020-05-13T23:00:00.378Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/blog/what-is-this">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>James Bedford</name></author>
+    </entry>
+  </feed>

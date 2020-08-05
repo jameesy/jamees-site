@@ -1,80 +1,72 @@
 {
   "./code": [
     {
-      "id": "./node_modules/prismjs/components/prism-jsx.js",
-      "name": "./node_modules/prismjs/components/prism-jsx.js",
-      "file": "static/chunks/1.js",
-      "publicPath": "static/chunks/1.js"
-    },
-    {
-      "id": "./node_modules/prismjs/prism.js",
-      "name": "./node_modules/prismjs/prism.js",
-      "file": "static/chunks/1.js",
-      "publicPath": "static/chunks/1.js"
-    },
-    {
-      "id": "./node_modules/process/browser.js",
-      "name": "./node_modules/process/browser.js",
-      "file": "static/chunks/1.js",
-      "publicPath": "static/chunks/1.js"
-    },
-    {
-      "id": "./node_modules/string-hash/index.js",
-      "name": "./node_modules/string-hash/index.js",
-      "file": "static/chunks/1.js",
-      "publicPath": "static/chunks/1.js"
-    },
-    {
-      "id": "./node_modules/styled-jsx/dist/lib/stylesheet.js",
-      "name": "./node_modules/styled-jsx/dist/lib/stylesheet.js",
-      "file": "static/chunks/1.js",
-      "publicPath": "static/chunks/1.js"
-    },
-    {
-      "id": "./node_modules/styled-jsx/dist/style.js",
+      "id": "3niX",
       "name": "./node_modules/styled-jsx/dist/style.js",
-      "file": "static/chunks/1.js",
-      "publicPath": "static/chunks/1.js"
+      "file": "static/chunks/12.2000cc5d6e95f6fc5371.js",
+      "publicPath": "static/chunks/12.2000cc5d6e95f6fc5371.js"
     },
     {
-      "id": "./node_modules/styled-jsx/dist/stylesheet-registry.js",
-      "name": "./node_modules/styled-jsx/dist/stylesheet-registry.js",
-      "file": "static/chunks/1.js",
-      "publicPath": "static/chunks/1.js"
+      "id": "8oxB",
+      "name": "./node_modules/process/browser.js",
+      "file": "static/chunks/12.2000cc5d6e95f6fc5371.js",
+      "publicPath": "static/chunks/12.2000cc5d6e95f6fc5371.js"
     },
     {
-      "id": "./node_modules/styled-jsx/style.js",
-      "name": "./node_modules/styled-jsx/style.js",
-      "file": "static/chunks/1.js",
-      "publicPath": "static/chunks/1.js"
+      "id": "9kyW",
+      "name": "./node_modules/string-hash/index.js",
+      "file": "static/chunks/12.2000cc5d6e95f6fc5371.js",
+      "publicPath": "static/chunks/12.2000cc5d6e95f6fc5371.js"
     },
     {
-      "id": "./node_modules/webpack/buildin/global.js",
-      "name": "./node_modules/webpack/buildin/global.js",
-      "file": "static/chunks/1.js",
-      "publicPath": "static/chunks/1.js"
+      "id": "CjHp",
+      "name": "./node_modules/prismjs/components/prism-jsx.js",
+      "file": "static/chunks/12.2000cc5d6e95f6fc5371.js",
+      "publicPath": "static/chunks/12.2000cc5d6e95f6fc5371.js"
     },
     {
-      "id": "./src/components/code.tsx",
+      "id": "F1I5",
       "name": "./src/components/code.tsx",
-      "file": "static/chunks/1.js",
-      "publicPath": "static/chunks/1.js"
+      "file": "static/chunks/12.2000cc5d6e95f6fc5371.js",
+      "publicPath": "static/chunks/12.2000cc5d6e95f6fc5371.js"
+    },
+    {
+      "id": "MX0m",
+      "name": "./node_modules/styled-jsx/style.js",
+      "file": "static/chunks/12.2000cc5d6e95f6fc5371.js",
+      "publicPath": "static/chunks/12.2000cc5d6e95f6fc5371.js"
+    },
+    {
+      "id": "SevZ",
+      "name": "./node_modules/styled-jsx/dist/stylesheet-registry.js",
+      "file": "static/chunks/12.2000cc5d6e95f6fc5371.js",
+      "publicPath": "static/chunks/12.2000cc5d6e95f6fc5371.js"
+    },
+    {
+      "id": "bVZc",
+      "name": "./node_modules/styled-jsx/dist/lib/stylesheet.js",
+      "file": "static/chunks/12.2000cc5d6e95f6fc5371.js",
+      "publicPath": "static/chunks/12.2000cc5d6e95f6fc5371.js"
+    },
+    {
+      "id": "wZee",
+      "name": "./node_modules/prismjs/prism.js",
+      "file": "static/chunks/12.2000cc5d6e95f6fc5371.js",
+      "publicPath": "static/chunks/12.2000cc5d6e95f6fc5371.js"
+    },
+    {
+      "id": "yLpj",
+      "name": "./node_modules/webpack/buildin/global.js",
+      "file": "static/chunks/12.2000cc5d6e95f6fc5371.js",
+      "publicPath": "static/chunks/12.2000cc5d6e95f6fc5371.js"
     }
   ],
   "./counter": [
     {
-      "id": "./src/components/counter.tsx",
+      "id": "HY/B",
       "name": "./src/components/counter.tsx",
-      "file": "static/chunks/2.js",
-      "publicPath": "static/chunks/2.js"
-    }
-  ],
-  "./dev/noop": [
-    {
-      "id": "./node_modules/next/dist/client/dev/noop.js",
-      "name": "./node_modules/next/dist/client/dev/noop.js",
-      "file": "static/chunks/0.js",
-      "publicPath": "static/chunks/0.js"
+      "file": "static/chunks/13.230fe15173e8b9f47e16.js",
+      "publicPath": "static/chunks/13.230fe15173e8b9f47e16.js"
     }
   ]
 }

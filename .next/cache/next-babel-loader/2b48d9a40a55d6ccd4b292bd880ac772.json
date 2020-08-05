@@ -1,0 +1,1 @@
+{"ast":null,"code":"import _extends from \"@babel/runtime/helpers/esm/extends\";\nimport React from \"react\";\nvar __jsx = React.createElement;\nexport default (function (props) {\n  return __jsx(\"a\", _extends({}, props, {\n    rel: \"noopener\",\n    target: props.target || '_blank'\n  }));\n});","map":null,"metadata":{},"sourceType":"module"}
