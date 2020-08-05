@@ -1,22 +1,24 @@
-@import url('https://rsms.me/inter/inter.css');
-
 * {
   box-sizing: border-box;
 }
 
 html {
-  font-family: 'Inter', 'Helvetica Neue',-apple-system,BlinkMacSystemFont,Helvetica,'Segoe UI',Roboto,Oxygen,Ubuntu,Cantarell,'Fira Sans','Droid Sans','Microsoft Yahei',sans-serif;
+  font-family: "Helvetica Neue", -apple-system, BlinkMacSystemFont, Helvetica,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans",
+    "Microsoft Yahei", sans-serif;
 }
 
 @supports (font-variation-settings: normal) {
   html {
-    font-family: 'Inter var', 'Helvetica Neue',-apple-system,BlinkMacSystemFont,Helvetica,'Segoe UI',Roboto,Oxygen,Ubuntu,Cantarell,'Fira Sans','Droid Sans','Microsoft Yahei',sans-serif;
+    font-family: "Helvetica Neue", -apple-system, BlinkMacSystemFont, Helvetica,
+      "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans",
+      "Microsoft Yahei", sans-serif;
   }
 }
 
 body {
   margin: 0;
-  color: #111;
+  color: white;
   font-size: 14px;
   line-height: 1.65;
   word-break: break-word;
@@ -25,10 +27,10 @@ body {
   -ms-hyphens: auto;
   -webkit-hyphens: auto;
   hyphens: auto;
-  font-feature-settings: 'calt', 'case', 'rlig';
+  font-feature-settings: "calt", "case", "rlig";
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-  background-color: white;
+  background-color: #111;
   font-weight: 400;
 }
 
@@ -37,14 +39,15 @@ body {
   background: #103cff;
 }
 
-a:focus, article a:focus {
+a:focus,
+article a:focus {
   outline: none;
-  opacity: .6;
+  opacity: 0.6;
 }
 
 article {
   margin: auto;
-  padding: 4rem 1rem 0;
+  padding: 10rem 1rem 0;
   max-width: 42rem;
   width: 100vw;
   white-space: pre-line;
@@ -88,7 +91,8 @@ article blockquote {
 
 blockquote .zh-han {
   font-style: normal;
-  font-family: Baskerville, 'Times New Roman', Times, 'Zhuyin Kaiti', 'Han Kaiti', Kai, KaiTi, 'KaiTi SC', STKaiti, cursive;
+  font-family: Baskerville, "Times New Roman", Times, "Zhuyin Kaiti",
+    "Han Kaiti", Kai, KaiTi, "KaiTi SC", STKaiti, cursive;
   font-size: 1.04em;
 }
 
@@ -101,7 +105,7 @@ article hr {
 }
 
 article li {
-  margin: .25rem 0;
+  margin: 0.25rem 0;
 }
 
 article li::marker {
@@ -113,11 +117,17 @@ article b {
 }
 
 article a {
-  color: #006fd0;
-  text-decoration: none;
+  color: white;
+  text-decoration: underline;
 }
 
-article p a:hover, article li a:hover, article blockquote a:hover {
+header article a {
+  color: white;
+}
+
+article p a:hover,
+article li a:hover,
+article blockquote a:hover {
   text-decoration: underline;
   text-underline-position: auto;
   cursor: pointer;
@@ -146,16 +156,16 @@ article .meta {
 .post-item a {
   display: inline;
   margin-right: 1rem;
-  font-size: 1rem;
   font-weight: 500;
-  color: black;
+  color: white;
+  background-color: transparent;
   letter-spacing: -0.02em;
   text-decoration: none;
 }
 
 .post-item time {
-  color: #666;
-  font-size: .8rem;
+  color: rgb(145, 145, 145);
+  font-size: 0.8rem;
   line-height: 2em;
 }
 
@@ -166,27 +176,37 @@ article .meta {
   margin: 1.5rem 0;
 }
 
-.media-container img, .media-container video {
+code {
+  color: #f81ce5;
+  margin-top: 1.5rem;
+}
+
+.media-container img,
+.media-container video {
   position: absolute;
   width: 100%;
 }
 
 header {
-  display: flex;
-  margin: 3rem 0px 1rem;
+  margin: 3rem 0px 5rem;
   justify-content: space-between;
 }
 
-header nav {
+/*header nav {
   display: flex;
 }
 
 header nav div {
   margin-left: 1rem;
+}*/
+
+header nav div:first-child {
+  margin-left: 0;
 }
 
 header nav div a {
   color: inherit;
+  background-color: transparent;
   text-decoration: underline;
   text-underline-position: auto;
   cursor: pointer;
@@ -194,6 +214,7 @@ header nav div a {
 
 header nav div a.active {
   text-decoration: none;
+  background-color: transparent;
   cursor: default;
 }
 
@@ -201,7 +222,7 @@ footer {
   max-width: 42rem;
   padding: 0 1rem;
   margin: 0 auto 2rem;
-  font-size: .8rem;
+  font-size: 0.8rem;
   color: #aaa;
   line-height: 1.2em;
 }
