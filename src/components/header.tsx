@@ -4,8 +4,8 @@ import ExtLink from './ext-link'
 import { useRouter } from 'next/router'
 
 const navItems: { label: string; page?: string; link?: string }[] = [
-  { label: 'Journal', page: '/blog' },
-  { label: 'About', page: '/' }
+  { label: 'About', page: '/' },
+  { label: 'Journal', page: '/blog' }
 ]
 
 const ogImageUrl = 'https://notion-blog.now.sh/og-image.png'
