@@ -68,7 +68,7 @@ const RenderPost = ({ post, redirect }) => {
 
         <Header title={post.Page}>
           <div className="meta">
-            {post.Authors.join(' ')}, {getDateStr(post.Date)}
+            {getDateStr(post.Date)}
           </div>
         </Header>
 

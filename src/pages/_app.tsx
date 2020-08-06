@@ -4,7 +4,7 @@ export default ({ Component, pageProps }) => (
   <>
     <Component {...pageProps} />
     <footer>
-      {` ${new Date().getFullYear()} © James Bedford.`}
+      {`© James Bedford ${new Date().getFullYear()}`}
     </footer>
   </>
 )
